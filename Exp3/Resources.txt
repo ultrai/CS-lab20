@@ -1,0 +1,5 @@
+https://www.mathworks.com/help/control/ug/time-domain-responses-of-systems.html
+https://www.mathworks.com/help/control/ug/compare-time-responses-of-multiple-models.html
+https://www.mathworks.com/help/control/ug/frequency-response-of-a-siso-system.html
+https://www.mathworks.com/help/control/ug/plotting-system-responses.html
+https://www.mathworks.com/help/control/ug/analyzing-the-response-of-an-rlc-circuit.html
