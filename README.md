@@ -1,5 +1,5 @@
 # CS-lab20
-# Upload your simulink files and response files with your roll numbers. For example "516732_sim.sim""516732_res.fig" in corresponding experiment folder
+# Upload your simulink files and response files with your roll numbers. For example "516732_exp1.sim"(simulation) & "516732_res_exp1.fig" (result / plot) in corresponding experiment folder
 1. Speed-torque characteristics of AC servo-motor
 2. Time-response of first and second order systems
 3. Frequency-response of second order system
