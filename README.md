@@ -6,7 +6,7 @@
 
 3. Frequency-response of second order system -  ( CS LAB - 1, Expt No - 07)
 
-4. Study of P, PI & PID controller -   (CS LAB -3 Simulation of P, PD, PI, PID controller )
+4. Study of P, PI & PID controller -   (CS LAB -2 Simulation of P, PD, PI, PID controller )
 
 5. Design and study of lag, lead and Lag-lead compensator networks -  ( CS LAB - 3)
 
@@ -29,7 +29,7 @@
     d) Effect of loop gain of a negative feedback system on stability    ( CS LAB - 1, Expt No - 01)
  
 13.a) To examine the relationships between open-loop frequency response and stability , open loop frequency and closed loop transient response
-     b) To study the effect of addition closed loop poles and zeroes on the closed loop transient response 
+     b) To study the effect of addition closed loop poles and zeroes on the closed loop transient response ( CS LAB - 2, Expt No - 01)
 
 14.a) Effect of open loop and zeroes on root locus contour
      b) To estimate the effect of open loop gain on the transient response of closed loop system by using Root locus
