@@ -1,5 +1,6 @@
 # CS-lab20
-# Upload your simulink files and response files with your roll numbers. For example "516732_exp1.sim"(simulation) & "516732_res_exp1.fig" (result / plot) in corresponding experiment folder
+# Upload your simulink files and response files with your roll numbers. For example "516732_exp1.sim"(simulation) & "516732_res_exp1.fig" (result / plot) in corresponding experiment folder. Please note that Manudals are meant for basic understanding but not for replication.
+
 1. Speed-torque characteristics of AC servo-motor - (CS LAB - 03)
 
 2. Time-response of first and second order systems  -  ( CS LAB - 1, Expt No - 01)
@@ -37,3 +38,5 @@
 
 
 15. To study the effect of P, PI, PD and PID controller on the step response of a feedback control system   (CS LAB -1, Expt No - 05)  
+
+Disclaimer: I hold no rights over the manuals shared. The manual content is subjected to vary time to time. 
