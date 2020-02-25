@@ -1,5 +1,5 @@
 # CS-lab20
-# Upload your simulink files and response files with your roll numbers. For example "516732_exp1.sim"(simulation) & "516732_res_exp1.fig" (result / plot) in corresponding experiment folder. Please note that Manudals are meant for basic understanding but not for replication.
+# Upload your simulink files and response files with your roll numbers. For example "516732_exp1.sim"(simulation) & "516732_res_exp1.fig" (result / plot) in corresponding experiment folder. Please note that Manuals are meant for basic understanding but not for replication. For uploading your files follow the instructions [CLICK HERE](https://kbroman.org/github_tutorial/pages/fork.html)
 
 1. Speed-torque characteristics of AC servo-motor - (CS LAB - 03)
 
