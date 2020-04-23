@@ -1,0 +1,2 @@
+design of lead compensator: https://www.youtube.com/watch?v=rH44ttR3G4Q
+design of lag compensator: https://www.youtube.com/watch?v=-4bY4W0hvFA
