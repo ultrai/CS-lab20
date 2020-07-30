@@ -1,0 +1,7 @@
+clear
+clc
+num = 1;
+den = [1,1,0];
+Hp = tf(num,den)
+bode(Hp)
+grid on
