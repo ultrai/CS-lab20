@@ -1,0 +1,508 @@
+pole -add
+G =
+ 
+        36
+  --------------
+  s^2 + 6 s + 36
+ 
+Continuous-time transfer function.
+
+>> r511768_13partB_pole
+
+sys =
+ 
+        1
+  -------------
+  s^2 + 3 s + 6
+ 
+Continuous-time transfer function.
+
+
+p =
+
+    -1    -5   -10   -20
+
+
+sys_new =
+ 
+            1
+  ---------------------
+  s^3 + 4 s^2 + 9 s + 6
+ 
+Continuous-time transfer function.
+
+Undefined function or variable 'new'.
+
+Error in r511768_13partB_pole (line 7)
+    step(sys,new)
+ 
+>> r511768_13partB_pole
+
+sys =
+ 
+        1
+  -------------
+  s^2 + 3 s + 6
+ 
+Continuous-time transfer function.
+
+
+p =
+
+    -1    -5   -10   -20
+
+
+sys_new =
+ 
+            1
+  ---------------------
+  s^3 + 4 s^2 + 9 s + 6
+ 
+Continuous-time transfer function.
+
+
+ans = 
+
+  struct with fields:
+
+        RiseTime: 2.0388
+    SettlingTime: 4.3619
+     SettlingMin: 0.1503
+     SettlingMax: 0.1667
+       Overshoot: 0
+      Undershoot: 0
+            Peak: 0.1667
+        PeakTime: 12.8484
+
+
+sys_new =
+ 
+             1
+  -----------------------
+  s^3 + 8 s^2 + 21 s + 30
+ 
+Continuous-time transfer function.
+
+
+ans = 
+
+  struct with fields:
+
+        RiseTime: 0.8705
+    SettlingTime: 2.6518
+     SettlingMin: 0.0301
+     SettlingMax: 0.0358
+       Overshoot: 7.4106
+      Undershoot: 0
+            Peak: 0.0358
+        PeakTime: 1.8789
+
+
+sys_new =
+ 
+             1
+  ------------------------
+  s^3 + 13 s^2 + 36 s + 60
+ 
+Continuous-time transfer function.
+
+
+ans = 
+
+  struct with fields:
+
+        RiseTime: 0.7990
+    SettlingTime: 2.5417
+     SettlingMin: 0.0152
+     SettlingMax: 0.0181
+       Overshoot: 8.4569
+      Undershoot: 0
+            Peak: 0.0181
+        PeakTime: 1.7500
+
+
+sys_new =
+ 
+              1
+  -------------------------
+  s^3 + 23 s^2 + 66 s + 120
+ 
+Continuous-time transfer function.
+
+
+ans = 
+
+  struct with fields:
+
+        RiseTime: 0.7770
+    SettlingTime: 2.4869
+     SettlingMin: 0.0076
+     SettlingMax: 0.0091
+       Overshoot: 8.6970
+      Undershoot: 0
+            Peak: 0.0091
+        PeakTime: 1.6886
+
+>> r511768_13partB_zero
+
+sys =
+ 
+        1
+  -------------
+  s^2 + 3 s + 6
+ 
+Continuous-time transfer function.
+
+
+z =
+
+    -1    -5   -10   -20
+
+
+sys_new =
+ 
+      s + 1
+  -------------
+  s^2 + 3 s + 6
+ 
+Continuous-time transfer function.
+
+
+ans = 
+
+  struct with fields:
+
+        RiseTime: 0.1658
+    SettlingTime: 3.0252
+     SettlingMin: 0.1508
+     SettlingMax: 0.2867
+       Overshoot: 72.0403
+      Undershoot: 0
+            Peak: 0.2867
+        PeakTime: 0.6754
+
+
+sys_new =
+ 
+      s + 5
+  -------------
+  s^2 + 3 s + 6
+ 
+Continuous-time transfer function.
+
+
+ans = 
+
+  struct with fields:
+
+        RiseTime: 0.6566
+    SettlingTime: 2.2140
+     SettlingMin: 0.7514
+     SettlingMax: 0.9198
+       Overshoot: 10.3779
+      Undershoot: 0
+            Peak: 0.9198
+        PeakTime: 1.3508
+
+
+sys_new =
+ 
+     s + 10
+  -------------
+  s^2 + 3 s + 6
+ 
+Continuous-time transfer function.
+
+
+ans = 
+
+  struct with fields:
+
+        RiseTime: 0.7398
+    SettlingTime: 2.3284
+     SettlingMin: 1.5323
+     SettlingMax: 1.8183
+       Overshoot: 9.0973
+      Undershoot: 0
+            Peak: 1.8183
+        PeakTime: 1.5044
+
+
+sys_new =
+ 
+     s + 20
+  -------------
+  s^2 + 3 s + 6
+ 
+Continuous-time transfer function.
+
+
+ans = 
+
+  struct with fields:
+
+        RiseTime: 0.7623
+    SettlingTime: 2.3834
+     SettlingMin: 3.0030
+     SettlingMax: 3.6282
+       Overshoot: 8.8459
+      Undershoot: 0
+            Peak: 3.6282
+        PeakTime: 1.5658
+
+>> 
+
+zero add
+
+G =
+ 
+        36
+  --------------
+  s^2 + 6 s + 36
+ 
+Continuous-time transfer function.
+
+>> r511768_13partB_pole
+
+sys =
+ 
+        1
+  -------------
+  s^2 + 3 s + 6
+ 
+Continuous-time transfer function.
+
+
+p =
+
+    -1    -5   -10   -20
+
+
+sys_new =
+ 
+            1
+  ---------------------
+  s^3 + 4 s^2 + 9 s + 6
+ 
+Continuous-time transfer function.
+
+Undefined function or variable 'new'.
+
+Error in r511768_13partB_pole (line 7)
+    step(sys,new)
+ 
+>> r511768_13partB_pole
+
+sys =
+ 
+        1
+  -------------
+  s^2 + 3 s + 6
+ 
+Continuous-time transfer function.
+
+
+p =
+
+    -1    -5   -10   -20
+
+
+sys_new =
+ 
+            1
+  ---------------------
+  s^3 + 4 s^2 + 9 s + 6
+ 
+Continuous-time transfer function.
+
+
+ans = 
+
+  struct with fields:
+
+        RiseTime: 2.0388
+    SettlingTime: 4.3619
+     SettlingMin: 0.1503
+     SettlingMax: 0.1667
+       Overshoot: 0
+      Undershoot: 0
+            Peak: 0.1667
+        PeakTime: 12.8484
+
+
+sys_new =
+ 
+             1
+  -----------------------
+  s^3 + 8 s^2 + 21 s + 30
+ 
+Continuous-time transfer function.
+
+
+ans = 
+
+  struct with fields:
+
+        RiseTime: 0.8705
+    SettlingTime: 2.6518
+     SettlingMin: 0.0301
+     SettlingMax: 0.0358
+       Overshoot: 7.4106
+      Undershoot: 0
+            Peak: 0.0358
+        PeakTime: 1.8789
+
+
+sys_new =
+ 
+             1
+  ------------------------
+  s^3 + 13 s^2 + 36 s + 60
+ 
+Continuous-time transfer function.
+
+
+ans = 
+
+  struct with fields:
+
+        RiseTime: 0.7990
+    SettlingTime: 2.5417
+     SettlingMin: 0.0152
+     SettlingMax: 0.0181
+       Overshoot: 8.4569
+      Undershoot: 0
+            Peak: 0.0181
+        PeakTime: 1.7500
+
+
+sys_new =
+ 
+              1
+  -------------------------
+  s^3 + 23 s^2 + 66 s + 120
+ 
+Continuous-time transfer function.
+
+
+ans = 
+
+  struct with fields:
+
+        RiseTime: 0.7770
+    SettlingTime: 2.4869
+     SettlingMin: 0.0076
+     SettlingMax: 0.0091
+       Overshoot: 8.6970
+      Undershoot: 0
+            Peak: 0.0091
+        PeakTime: 1.6886
+
+>> r511768_13partB_zero
+
+sys =
+ 
+        1
+  -------------
+  s^2 + 3 s + 6
+ 
+Continuous-time transfer function.
+
+
+z =
+
+    -1    -5   -10   -20
+
+
+sys_new =
+ 
+      s + 1
+  -------------
+  s^2 + 3 s + 6
+ 
+Continuous-time transfer function.
+
+
+ans = 
+
+  struct with fields:
+
+        RiseTime: 0.1658
+    SettlingTime: 3.0252
+     SettlingMin: 0.1508
+     SettlingMax: 0.2867
+       Overshoot: 72.0403
+      Undershoot: 0
+            Peak: 0.2867
+        PeakTime: 0.6754
+
+
+sys_new =
+ 
+      s + 5
+  -------------
+  s^2 + 3 s + 6
+ 
+Continuous-time transfer function.
+
+
+ans = 
+
+  struct with fields:
+
+        RiseTime: 0.6566
+    SettlingTime: 2.2140
+     SettlingMin: 0.7514
+     SettlingMax: 0.9198
+       Overshoot: 10.3779
+      Undershoot: 0
+            Peak: 0.9198
+        PeakTime: 1.3508
+
+
+sys_new =
+ 
+     s + 10
+  -------------
+  s^2 + 3 s + 6
+ 
+Continuous-time transfer function.
+
+
+ans = 
+
+  struct with fields:
+
+        RiseTime: 0.7398
+    SettlingTime: 2.3284
+     SettlingMin: 1.5323
+     SettlingMax: 1.8183
+       Overshoot: 9.0973
+      Undershoot: 0
+            Peak: 1.8183
+        PeakTime: 1.5044
+
+
+sys_new =
+ 
+     s + 20
+  -------------
+  s^2 + 3 s + 6
+ 
+Continuous-time transfer function.
+
+
+ans = 
+
+  struct with fields:
+
+        RiseTime: 0.7623
+    SettlingTime: 2.3834
+     SettlingMin: 3.0030
+     SettlingMax: 3.6282
+       Overshoot: 8.8459
+      Undershoot: 0
+            Peak: 3.6282
+        PeakTime: 1.5658
+
+>> 
