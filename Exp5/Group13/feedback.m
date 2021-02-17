@@ -13,9 +13,9 @@ p = [];
 kp = 1;
 fbp = zpk(z,p,kp);
 
-tf1 = feedback(plant1,fbp);
-tf2 = feedback(plant2,fbp);
-tf3 = feedback(plant3,fbp);
+tf1 = feedback(plant1,fbp, 1);
+tf2 = feedback(plant2,fbp, 1);
+tf3 = feedback(plant3,fbp, 1);
 
 figure(1);
 step(tf1);
@@ -35,9 +35,9 @@ grid;
 kn = -1;
 fbn = zpk(z,p,kn);
 
-tf1 = feedback(plant1,fbn);
-tf2 = feedback(plant2,fbn);
-tf3 = feedback(plant3,fbn);
+tf1 = feedback(plant1,fbn, 1);
+tf2 = feedback(plant2,fbn, 1);
+tf3 = feedback(plant3,fbn, 1);
 
 figure(4);
 step(tf1);
