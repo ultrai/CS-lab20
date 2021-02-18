@@ -122,7 +122,56 @@ grid on;
 title('Step Response of G(s)=1/(10*s) with Zero at -1 in negative Feedback')
 stepinfo(Y12)
 
+%Closed Loop Transfer Function Time Response
+%For A zero at +1 in the -ve Feedback
 
+H=(s-1);
+Y13=feedback(G1,H)
+figure(16)
+step(Y13)
+grid on;
+title('Step Response of G(s)=1/((s+1)*(s+2)) with Zero at +1 in negative Feedback')
+stepinfo(Y13)
+
+Y14=feedback(G2,H)
+figure(17)
+step(Y14)
+grid on;
+title('Step Response of G(s)=1/((s-1)*(s+2)) Zero at +1 in negative Feedback')
+stepinfo(Y14)
+
+Y15=feedback(G3,H)
+figure(18)
+step(Y15)
+grid on;
+title('Step Response of G(s)=1/(10*s) with Zero at +1 in negative Feedback')
+stepinfo(Y15)
+
+
+%Closed Loop Transfer Function Time Response
+%For A pole at +1 in the -ve Feedback
+
+H=1/(s-1);
+Y16=feedback(G1,H)
+figure(19)
+step(Y16)
+grid on;
+title('Step Response of G(s)=1/((s+1)*(s+2)) with Pole at +1 in negative Feedback')
+stepinfo(Y16)
+
+Y17=feedback(G2,H)
+figure(20)
+step(Y17)
+grid on;
+title('Step Response of G(s)=1/((s-1)*(s+2)) Pole at +1 in negative Feedback')
+stepinfo(Y17)
+
+Y18=feedback(G3,H)
+figure(21)
+step(Y18)
+grid on;
+title('Step Response of G(s)=1/(10*s) with Pole at +1 in negative Feedback')
+stepinfo(Y18)
 
 
 
