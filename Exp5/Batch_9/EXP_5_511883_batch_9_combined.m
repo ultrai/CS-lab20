@@ -85,6 +85,23 @@ step(G15)
 title("Step Response of G(s)=1/((s+1)*(s+2)) with h(s)=(s+1) negative Feedback")
 % hgexport(15,"511883_Results_Step_Response_of_G15.fig");
 
+G17=feedback(G1,(s-1))
+G18=feedback(G2,(s-1))
+G19=feedback(G3,(s-1))
+figure(17)
+step(G17)
+title("Step Response of G(s)=1/(10*s) with h(s)=(s-1) negative Feedback")
+hgexport(17,"511883_Results_Step_Response_of_G17.fig");
+figure(18)
+step(G18)
+title("Step Response of G(s)=1/((s-1)*(s+2)) with h(s)=(s-1) negative Feedback")
+hgexport(18,"511883_Results_Step_Response_of_G18.fig");
+figure(19)
+step(G19)
+title("Step Response of G(s)=1/((s+1)*(s+2)) with h(s)=(s-1) negative Feedback")
+hgexport(19,"511883_Results_Step_Response_of_G19.fig");
+
+
 figure(16)
 pzmap(G1)
 hold on
@@ -117,6 +134,6 @@ hold on
 pzmap(G15)
 legend();
 title("PZMAP");
-% hgexport(16,"511883_Results_PZMAP.fig");
+hgexport(16,"511883_Results_PZMAP.fig");
 
 
