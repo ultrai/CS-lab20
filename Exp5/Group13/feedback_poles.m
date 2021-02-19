@@ -9,35 +9,36 @@ plant3 = tf(num,sys3);
 
 
 z = [];
-p = [-1];
+p = [1];
 kp = 1;
 fbp = zpk(z,p,kp);
-
-tf1 = feedback(plant1,fbp,1);
-tf2 = feedback(plant2,fbp,1);
-tf3 = feedback(plant3,fbp,1);
-
-figure(1);
-step(tf1);
-title('1/(s+1)(s+2) Positive Feedback pole at -1');
-grid;
-
-figure(2);
-step(tf2);
-title('1/(s-1)(s+2) Positive Feedback pole at -1');
-grid;
-
-figure(3);
-step(tf3);
-title('1/10s Positive Feedback pole at -1');
-grid;
-
-kn = -1;
-fbn = zpk(z,p,kn);
 
 tf1 = feedback(plant1,fbp,-1);
 tf2 = feedback(plant2,fbp,-1);
 tf3 = feedback(plant3,fbp,-1);
+
+figure(1);
+step(tf1);
+title('1/(s+1)(s+2) Negative Feedback pole at 1');
+grid;
+
+figure(2);
+step(tf2);
+title('1/(s-1)(s+2) Negative Feedback pole at 1');
+grid;
+
+figure(3);
+step(tf3);
+title('1/10s Negative Feedback pole at 1');
+grid;
+
+kn = -1;
+p = [-1];
+fbn = zpk(z,p,kn);
+
+tf1 = feedback(plant1,fbn,1);
+tf2 = feedback(plant2,fbn,1);
+tf3 = feedback(plant3,fbn,1);
 
 figure(4);
 step(tf1);
