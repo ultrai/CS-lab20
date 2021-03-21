@@ -1,0 +1,20 @@
+%%TF= (100/(s^2 +10s+100))
+w=10;
+g=0.5;
+
+num= [w*w];
+den=[1,2*g*w,w*w];
+sys=tf(num,den);
+[mr,wr]=getPeakGain(sys)
+wb=bandwidth(sys)
+bode(sys);
+margin(sys);
+
+%%TF= (12)/((s+3)(s+4))
+num1= 12;
+den1=[1,7,12];
+sys1=tf(num1,den1);
+[mr1,wr1]=getPeakGain(sys1)
+wb1=bandwidth(sys1)
+bode(sys1);
+margin(sys1);
