@@ -1,0 +1,9 @@
+A = [0 2 ;1 -1]
+B=[0 1]'
+C= [1 0]
+a= input ( "Enter the values of a matrix");
+b= input ( "Enter the values of b matrix");
+c= input ("Enter the values of c matrix");
+d= input ("Enter the values of d matrix");
+[num, den] = ss2tf (a, b, c, d,1)
+Transferfunction=tf(num , den)
