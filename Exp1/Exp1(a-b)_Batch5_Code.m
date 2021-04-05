@@ -20,7 +20,3 @@ sys3=tf(z,p)
 figure(2);
 step(sys3)
 title('Effect of addition of Zero at -38 on Step response of first order system');
-
-
-
-

@@ -29,5 +29,3 @@ if g==0
     step(sys);
     title('Step Response of Second Order Undamped System');
 end
-    
-    

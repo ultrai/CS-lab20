@@ -45,7 +45,7 @@ Kd=Kp*Td
 % cont = Kp(1 + 1/(s*Ti) + s*Td);
 cont = Kp + Kp/(s*Ti) + Kp*Td*s;
 
-cl_sys = feedback(cont*sys,1);
+cl_sys = feedback(cont*sys,1)
 t = [0:0.01:3];
 [yc,tc] = step(cl_sys,t);
 stepinfo(cl_sys)

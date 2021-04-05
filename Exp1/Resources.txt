@@ -1,2 +1,0 @@
-https://www.mathworks.com/help/physmod/sps/examples/motor-torque-speed-curves.html
-

@@ -1,4 +1,3 @@
-
 z = [0 2888];
 p = [1,76,2888];
 sys = tf(z,p);
@@ -23,8 +22,3 @@ sys2 = tf(z,p);
 figure(3)
 step(sys2);
 title('Effect of addition of Zero at (-38) on Step response of second order system TF=(2888)/(s^2+76s+2888)')
-
-
-
-
-
