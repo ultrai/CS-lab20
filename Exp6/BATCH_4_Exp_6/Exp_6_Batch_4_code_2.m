@@ -1,0 +1,26 @@
+sys=tf([36],[1 6 11 6])
+figure(1)
+zpk(sys)
+rlocus(sys)
+grid
+title('root locus for first transfer function')
+figure(2)
+bode(sys)
+margin(sys)
+figure(3)
+nyquistplot(sys)
+title('nyquist plot of first system')
+
+
+sys1=tf([1],[1 3 2 0])
+figure(4)
+zpk(sys1)
+rlocus(sys1)
+grid
+title('root locus for second transfer function')
+figure(5)
+bode(sys1)
+margin(sys1)
+figure(6)
+nyquistplot(sys1)
+title('nyquist plot of second system')
