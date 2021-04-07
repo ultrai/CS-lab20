@@ -43,5 +43,5 @@ rlocus(sys4)
 hold on
 rlocus(sys5)
 hold on
-legend('TF','TF_with_zero_at-1','TF_with_Zero_at1','TF_with_pole_at1','TF_with_pole_at-1')
+legend('TF','zero at-1','Zero at1','pole at1','pole at-1')
 grid;

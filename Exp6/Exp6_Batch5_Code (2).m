@@ -1,11 +1,11 @@
-sys = tf([10],[.04 .5 1]);
+sys1 = tf([10],[0.04 0.5 1]);
 figure(1);
-bode(sys);
-grid;
+bode(sys1);
 title("Bode plot for 10/s(1+0.4s)(1+0.1s)")
 
-
-sys = tf([36],[1 6 11 6]);
+sys2=tf([36],[1 6 11 6])
 figure(2);
-bode(sys);
-grid;title("Bode plot for 36/(s^3+6s^2+11s+6)")
+bode(sys2);
+title("Bode plot for 36/(s^3+6s^2+11s+6)")
+
+
