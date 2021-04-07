@@ -1,3 +1,5 @@
+%10th experiement part a
+%block diagram reduction
 ng1=[1];dg1=[1 0];
 g1=tf(ng1,dg1);
 ng2=[1];dg2=[1 0];
@@ -12,9 +14,9 @@ nh2=[1];dh2=[1];
 h2=tf(nh2,dh2);
 nh3=[1];dh3=[1];
 h3=tf(nh3,dh3);
-sys1=series(g3,g4)
-sys2=feedback(sys1,h1,1)
+sys5=series(g3,g4)
+sys4=feedback(sys1,h1,1)
 sys3=series(sys2,g2)
-sys4=feedback(sys3,h2,-1)
-sys5=series(sys4,g4)
+sys2=feedback(sys3,h2,-1)
+sys1=series(sys4,g4)
 sys=feedback(sys5,h3,-1)
