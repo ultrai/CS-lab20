@@ -1,0 +1,13 @@
+numg1=1; deng1=[1 0]; systemg1 = tf(numg1,deng1);
+numg2=1; deng2=[1 0]; systemg2 = tf(numg2,deng2);
+numg3=1; deng3=[1 0]; systemg3 = tf(numg3,deng3);
+numg4=1; deng4=[1 0]; systemg4 = tf(numg4,deng4);
+numh1=1; denh1=1;     systemh1 = tf(numh1,denh1);
+numh2=1; denh2=1;     systemh2 = tf(numh2,denh2);
+numh3=1; denh3=1;     systemh3 = tf(numh3,denh3);
+x1=series(systemg3,systemg4);
+y2=feedback(x1,systemh1,1);
+z3=series(systemg2,y2);
+a4=feedback(z3,systemh2,-1);
+b5=series(systemg1,a4);
+system=feedback(b5,systemh3);
