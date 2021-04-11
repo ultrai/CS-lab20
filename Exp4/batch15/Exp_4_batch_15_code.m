@@ -6,9 +6,9 @@ t = feedback(g,1)
 figure(1)
 step(t,4);
 title('step response of feedback system')
-kp = 300;
-kd = 10;
-ki = 70;
+kp = 210;
+kd = 8;
+ki = 80;
 %% introduction of p controller
 cont = pid(kp);
 g1 = g*cont;
